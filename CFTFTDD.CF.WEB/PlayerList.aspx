@@ -13,7 +13,7 @@
   <form id="form1" runat="server">
     <div class="container">
       <div class="row col-xs-12">
-        <h1>Player list</h1>
+        <h1>Players</h1>
       </div>
       <div class="row col-xs-4">
         <table class="table table-bordered">
@@ -23,6 +23,7 @@
                 <tr>
                   <th>First Name</th>
                   <th>Last Name</th>
+                  <%--<th>Shirt Number</th>--%>
                 </tr>
               </thead>
             </HeaderTemplate>
@@ -32,12 +33,13 @@
                   <asp:Label runat="server" ID="lblFirstName" Text='<%# Eval("FirstName") %>' /></td>
                 <td>
                   <asp:Label runat="server" ID="lblLastName" Text='<%# Eval("LastName") %>' /></td>
+                <%--<td>
+                  <asp:Label runat="server" ID="lblShirtNumber" Text='<%# Eval("ShirtNumber") %>' /></td>--%>
               </tr>
             </ItemTemplate>
           </asp:Repeater>
         </table>
       </div>
-
     </div>
   </form>
 </body>
