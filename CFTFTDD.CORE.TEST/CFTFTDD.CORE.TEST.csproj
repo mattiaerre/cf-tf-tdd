@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PlayerModel.cs" />
-    <Compile Include="Player_Test.cs" />
+    <Compile Include="Player_Tests_20140324.cs" />
+    <Compile Include="Player_Tests_20140322.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

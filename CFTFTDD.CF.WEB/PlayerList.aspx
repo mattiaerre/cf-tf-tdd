@@ -34,7 +34,7 @@
                 <td>
                   <asp:Label runat="server" ID="lblLastName" Text='<%# Eval("LastName") %>' /></td>
                 <%--<td>
-                  <asp:Label runat="server" ID="lblShirtNumber" Text='<%# Eval("ShirtNumber") %>' /></td>--%>
+                  <asp:Label runat="server" ID="lblShirtNumber" Text='<%# Eval("JerseyNumber") %>' /></td>--%>
               </tr>
             </ItemTemplate>
           </asp:Repeater>
